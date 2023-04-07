@@ -70,42 +70,25 @@ li {
   justify-content: center;
   height: 65vh;
   text-align: center;
-  background-image: url("img/profile1.jpg");
 }
 
-.header__inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.header__title {
-    font-size: 25px;
-}
-.header__nav ul {
-    display: flex;
-}
-.header__nav ul li {
-    margin-left: 50px;
-}
-.header__nav ul li a {
-    text-decoration: none;
-    color: black;
-}
-/* first-v */
-.first-v {
-    background-image: url("img/profile1.jpg");
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-}
-/* レスポンシブ */
-@media (max-width: 600px) {
-    .header__nav {
-        display: none;
-    }
+.header-inner {
+  padding: 0 40px;
 }
 
+.header-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 72px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #000000;
+}
+.header-subtitle {
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: .08em;
+}
 /*--------------------------------
  下層ページのheader
 ---------------------------------*/
