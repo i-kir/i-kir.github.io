@@ -91,6 +91,15 @@ li {
   letter-spacing: .08em;
 }
 
+/* first-v */
+.first-v {
+    background-image: url(img/profile1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
 /*--------------------------------
  下層ページのheader
 ---------------------------------*/
