@@ -271,14 +271,14 @@ li {
   margin-top: 10px;
 }
 /*--------------------------------
- ページトップ
+ ページトップ↑
 ---------------------------------*/
 .page-top {
   font-weight: bold;
   padding: 10px;
   cursor: pointer;
   text-align: center;
-  background-color: #02c0fa;
+  background-color: #afdfed;
 }
 
 .page-top .material-icons-outlined {
@@ -291,7 +291,7 @@ li {
 ---------------------------------*/
 .footer {
   padding: 30px;
-  background-color: #efc4d8;
+  background-color: #73d7f5;
 }
 
 .copyright {
