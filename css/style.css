@@ -93,7 +93,7 @@ li {
 }
 /* first-v */
 .first-v {
-    background-image: url(img/profile1.jpg);
+    background-image: url("img/profile1.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
