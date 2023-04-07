@@ -4,7 +4,6 @@ body {
   line-height: 1.8;
   letter-spacing: .8px;
   color: #333;
-  background-image: url("img/profile1.jpg");
 }
 
 a {
@@ -71,6 +70,7 @@ li {
   justify-content: center;
   height: 65vh;
   text-align: center;
+  background-image: url("img/profile1.jpg");
 }
 
 .header-inner {
