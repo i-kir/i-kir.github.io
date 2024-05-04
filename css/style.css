@@ -4,7 +4,7 @@ body {
   line-height: 1.8;
   letter-spacing: .8px;
   color: #333;
-  background-color: red;
+  background-color: linear-gradient(to bottom, red, blue);
 }
 
 a {
