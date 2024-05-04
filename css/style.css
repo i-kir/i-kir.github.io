@@ -1,21 +1,10 @@
-.bg_pattern {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('img/icon_skill.png');
-  opacity: 0.1; /* 透明度調整 */
-  pointer-events: none; /* 要素をクリック可能にしない */
-  z-index: -1; /* 背景よりも後ろに表示 */
-}
-
 body {
   font-family: "Helvetica Neue", "Hiragino Kaku Gothic ProN", "Hiragino Sans";
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: .8px;
   color: #333;
+  background-color: red;
 }
 
 a {
