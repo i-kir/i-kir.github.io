@@ -1,49 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- 文書のエンコーディングとビューポートの設定 -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <!-- OGP用のメタデータ -->
   <meta property='og:type' content='website'>
   <meta property='og:title' content='Kenichiro Ikeda portfolio site'>
   <meta property='og:url' content='URLが入る'>
   <meta property='og:description' content='池田健一郎のポートフォリオサイトです。'>
   <meta property="og:image" content="img/ogp.png">
+  <!-- ページの説明 -->
   <meta name="description" content="池田健一郎のポートフォリオサイトです" />
+  <!-- ページのタイトル -->
   <title>Kenichiro Ikeda ポートフォリオ</title>
+  <!-- 外部フォントのリンク -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cormorant+Garamond&family=Dancing+Script&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cormorant+Garamond&family=Dancing+Script&display=swap" rel="stylesheet">
+  <!-- Material Iconsのリンク -->
   <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <!-- CSSファイルのリンク -->
   <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <!-- faviconのリンク -->
   <link rel="shortcut icon" href="img/favicon.ico" />
+  <!-- カノニカルURLの指定 -->
   <link rel=”canonical” href=”URLが入る” />
 </head>
 
 <body>
+  <!-- サイト全体を包む要素 -->
   <div class="wrapper">
+    <!-- メインのコンテンツを含む要素 -->
     <main class="content">
-      <!-- header -->
+      <!-- ヘッダー -->
       <header class="header">
         <div class="header-inner">
+          <!-- ヘッダータイトル -->
           <p class="header-title">Kenichiro Ikeda's Portfolio Site</p>
         </div>
-        
       </header>
-      <!-- /header -->
-      <!-- first-v -->
+      <!-- 最初のビュー -->
       <div class="first-v"></div>
       
-      <!-- about -->
+      <!-- 自己紹介 -->
       <section class="about section" id="about">
         <div class="inner">
+          <!-- セクションタイトル -->
           <h2 class="title">Profile</h2>
           <div class="profile">
+            <!-- プロフィール画像 -->
             <p class="profile-img">
               <img src="img/profile1.jpg" alt="">
             </p>
             <div class="profile-body">
+              <!-- プロフィール内容 -->
               <p>
                 はじめまして。池田健一郎です。AIについて一生懸命学んでいます。<br>
                 【基本情報】<br>
@@ -76,7 +87,7 @@
       </section>
       <!-- /about -->
 
-      <!-- gnav -->
+      <!-- ナビゲーションメニュー -->
       <nav class="gnav">
         <div class="gnav-inner">
           <ul class="gnav-list">
@@ -88,11 +99,12 @@
       </nav>
       <!-- /gnav -->
 
-      <!-- works -->
+      <!-- 作品一覧 -->
       <section class="works section" id="works">
         <div class="inner">
           <h2 class="title">works</h2>
           <div class="works-list">
+            <!-- 作品リスト -->
             <a class="works-item" href="https://github.com/i-kir/i-kir.github.io.git">
               <p class="works-img"><img src="img/portfolio.png" alt="" /></p>
               <p class="works-name">ポートフォリオサイトのコード掲載</p>
@@ -123,7 +135,7 @@
       </section>
       <!-- /works -->
 
-      <!-- skill -->
+      <!-- スキル -->
       <section class="skill section" id="skill">
         <div class="inner">
           <h2 class="title">skill</h2>
@@ -157,7 +169,7 @@
       </section>
       <!-- /skill -->
 
-      <!-- contact -->
+      <!-- お問い合わせ -->
       <section class="contact section" id="contact">
         <div class="inner">
           <h2 class="title">contact</h2>
@@ -165,26 +177,28 @@
                 お問い合わせは、<br class="sp-only">以下のメールにてお願いいたします。
           </p>
           <div class="contact-list">
- <!--       <a class="contact-item" href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a>
-            <a class="contact-item" href="https://instagram.com/1999.k.i?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noopener">Instagram</a> /-->
+            <!-- お問い合わせメールアドレス -->
             <span class="contact-item">014z426v8@gmail.com</span>
           </div>
         </div>
       </section>
       <!-- /contact -->
+      <!-- ページのトップへ戻るボタン -->
       <div class="page-top" id="js-page-top">
         <span class="material-icons-outlined">expand_less</span>
       </div>
     </main>
 
-    <!-- footer -->
+    <!-- フッター -->
     <footer class="footer">
       <div class="copyright">&copy;Kenichiro Ikeda</div>
     </footer>
     <!-- /footer -->
 
   </div>
+  <!-- jQueryの読み込み -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- JavaScriptファイルの読み込み -->
   <script type='text/javascript' src="js/script.js"></script>
 </body>
 </html>
