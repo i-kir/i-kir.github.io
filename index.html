@@ -26,10 +26,27 @@
   <link rel="shortcut icon" href="img/favicon.ico" />
   <!-- カノニカルURLの指定 -->
   <link rel=”canonical” href=”URLが入る” />
+
+  
+  <!-- 水玉の背景を指定するCSSスタイル -->
+  <style>
+    /* 水玉の背景パターン */
+    .bg_pattern {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('path/to/polka-dot-pattern.png');
+      opacity: 0.1; /* 透明度調整 */
+      pointer-events: none; /* 要素をクリック可能にしない */
+      z-index: -1; /* 背景よりも後ろに表示 */
+    }
+  </style>
+  
 </head>
 
 <body>
-  
   <!-- サイト全体を包む要素 -->
   <div class="wrapper">
     <!-- メインのコンテンツを含む要素 -->
@@ -40,7 +57,6 @@
           <!-- ヘッダータイトル -->
           <p class="header-title">Kenichiro Ikeda's Portfolio Site</p>
         </div>
-          <div class="bg_pattern Polka"></div>
       </header>
       <!-- 最初のビュー -->
       <div class="first-v"></div>
