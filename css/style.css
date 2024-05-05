@@ -4,12 +4,13 @@ body {
   line-height: 1.8;
   letter-spacing: .8px;
   color: #333;
+  background: linear-gradient(#f9f9f9, #318cfbac);
 }
 
 a {
   transition: opacity .3s;
   text-decoration: none;
-  color: #16cec5;
+  color: #ff0000;
 }
 
 img {
@@ -31,6 +32,7 @@ li {
 .sp-only {
   display: none;
 }
+
 
 /*--------------------------------
  レイアウト
@@ -130,7 +132,9 @@ li {
   top: 0;
   z-index: 1;
   width: 100%;
-  background-color: #fff;
+  /*--------------------------------
+  background-color: #064bfc;
+  ---------------------------------*/
 }
 
 .gnav-inner {
@@ -291,7 +295,7 @@ li {
 ---------------------------------*/
 .footer {
   padding: 30px;
-  background-color: #73d7f5;
+  background-color: #ffffff;
 }
 
 .copyright {
@@ -343,6 +347,8 @@ li {
 .home-link {
   text-align: center;
 }
+
+
 
 /*media Queries 767
 ----------------------------------------------------*/
